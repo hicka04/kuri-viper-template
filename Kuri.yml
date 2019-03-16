@@ -1,0 +1,26 @@
+DefaultTemplateDirectoryPath: ./KuriTemplate/
+ProjectRootPath: ./
+ProjectFileName: Kuri.xcodeproj
+GenerateRootPath: ./Kuri/modules/
+Target: Kuri
+ShouldRemoveLayerNameFromDirectory: false
+
+interactor:
+  ProjectRootPath: ./
+  ProjectFileName: Kuri.xcodeproj
+  GenerateRootPath: ./Kuri/data/
+  Target: Kuri
+  ShouldRemoveLayerNameFromDirectory: true
+
+interactorTests:
+  ProjectRootPath: ./
+  ProjectFileName: Kuri.xcodeproj
+  GenerateRootPath: ./Kuri/data/
+  Target: KuriTests
+  ShouldRemoveLayerNameFromDirectory: true
+
+presenterTests:
+  ProjectRootPath: ./
+  ProjectFileName: Kuri.xcodeproj
+  GenerateRootPath: ./Kuri/modules/
+  Target: KuriTests
